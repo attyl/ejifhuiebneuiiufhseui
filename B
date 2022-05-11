@@ -1,3 +1,9 @@
+local function benmain()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC2'))()
-wait()
+end
+coroutine.wrap(benmain)()
+
+local function farmscript()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC'))()
+end
+coroutine.wrap(farmscript)()
