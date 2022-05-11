@@ -1,0 +1,32 @@
+local arrowval = false
+local rokaval = false
+local frogval = false
+local bankval = false
+local reqval = false
+local vmask = false
+local gvmask = false
+local diaryval = false
+local camval = false
+local holyval = false
+
+local function arrow()
+	local script = Instance.new('LocalScript', TextLabel_72)
+	script.Parent.MouseButton1Click:Connect(function()
+		if arrowval == true then
+			arrowval == false
+			TextLabel_72.TextColor3 = Color3.fromRGB(0, 0, 0)
+		if arrowval == false then
+			arrowval = true
+			TextLabel_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+			repeat
+				for i,v in pairs(game:GetService("Workspace").ItFolder:GetDescendants()) do
+  					if v.Name == "Arrow" and v:IsA("Tool") then
+       					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+   					end
+   				end
+			until arrowval == false
+		end
+	end)
+	
+end
+coroutine.wrap(arrow)()
