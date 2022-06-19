@@ -7,8 +7,3 @@ local function farmscript()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC'))()
 end
 coroutine.wrap(farmscript)()
-
-local function ttsgui()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/attyl/ejifhuiebneuiiufhseui/main/BC3'))()
-end
-coroutine.wrap(ttsgui)()
