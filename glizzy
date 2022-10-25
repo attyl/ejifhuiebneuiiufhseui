@@ -773,6 +773,7 @@ function RayfieldLibrary:CreateWindow(Settings) --Name = "Phantom Forces", SaveC
 		function Tab:CreateButton(ButtonSettings)
 			local Button = Elements.Template.Button:Clone()
 			Button.Name = ButtonSettings.Name
+			Button.ElementIndicator.Text = ""
 			Button.Title.Text = ButtonSettings.Name
 			Button.Visible = true
 			Button.Parent = TabPage
