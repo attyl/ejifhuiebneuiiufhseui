@@ -649,6 +649,7 @@ function Minimise()
 end
 
 function RayfieldLibrary:CreateWindow(Settings) --Name = "Phantom Forces", SaveConfiguration = true, ConfigurationFolder = "PhantomForces" (defaults to placeid)
+	RecommendSettings.Title.Text = Settings.BigName
 	Topbar.Title.Text = Settings.Name
 	
 	Notifications.Template.Visible = false
