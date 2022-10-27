@@ -650,6 +650,7 @@ end
 
 function RayfieldLibrary:CreateWindow(Settings) --Name = "Phantom Forces", SaveConfiguration = true, ConfigurationFolder = "PhantomForces" (defaults to placeid)
 	LoadingFrame.Title.Text = Settings.BigName
+	LoadingFrame.Subtitle.Text = Settings.Author
 	Topbar.Title.Text = Settings.Name
 	
 	Notifications.Template.Visible = false
